@@ -1,0 +1,23 @@
+{
+  "name": "placeholder-avatars",
+  "version": "1.0.0",
+  "description": "Library for generating random svg avatar-like placeholders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolaichub/placeholder-avatars.git"
+  },
+  "author": "Nikolai Chub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikolaichub/placeholder-avatars/issues"
+  },
+  "homepage": "https://github.com/nikolaichub/placeholder-avatars#readme",
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "prettier": "^2.3.0"
+  }
+}
