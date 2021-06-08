@@ -2,7 +2,7 @@
   "name": "placeholder-avatars",
   "version": "1.0.0",
   "description": "Library for generating random svg avatar-like placeholders",
-  "main": "index.js",
+  "main": "./lib/placeholder.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
