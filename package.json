@@ -1,6 +1,6 @@
 {
   "name": "placeholder-avatars",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Library for generating random svg avatar-like placeholders",
   "main": "./src/placeholder.js",
   "scripts": {
