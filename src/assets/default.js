@@ -1,3 +1,5 @@
+'use strict';
+
 const types = ['square', 'round'];
 const variants = ['grid', 'random'];
 const elements = ['square', 'circle'];
@@ -7,7 +9,7 @@ const amount = { from: 1, to: 10, default: 5 };
 const density = { from: 2, to: 10, default: 8 };
 const size = { from: 32, to: 1024, default: 512 };
 
-export const def = {
+module.exports = {
   types,
   variants,
   defaultColors,

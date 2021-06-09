@@ -1,6 +1,8 @@
-import { utils } from './assets/utils.js';
+'use strict';
 
-import {
+const { utils } = require('./utils.js');
+
+const {
   types,
   variants,
   defaultColors,
@@ -9,10 +11,9 @@ import {
   size,
   elements,
   density,
-} from './assets/default.js';
+} = require('./default.js');
 
-// for svg generating
-export default class Placeholder {
+class Placeholder {
   constructor(options = {}) {
     this.type = options.type || types[0]; // square
     this.size = options.size || size.default; // 512
@@ -163,3 +164,5 @@ export default class Placeholder {
     return [start, body, end].flat(1).join('').trim();
   }
 }
+
+module.exports = Placeholder;
