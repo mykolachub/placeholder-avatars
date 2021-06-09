@@ -5,7 +5,7 @@
   "main": "./lib/placeholder.js",
   "scripts": {
     "lint": "npx eslint --fix .",
-    "build": "babel ./src/placeholder.js -d lib && uglifyjs lib/placeholder.js -o lib/placeholder.min.js -c -m && gzip -c lib/placeholder.min.js > lib/placeholder.min.js.gz"
+    "build": "babel ./src/placeholder-comb.js -d lib && terser lib/placeholder-comb.js -c -m -o lib/placeholder-comb.min.js"
   },
   "repository": {
     "type": "git",
@@ -23,9 +23,8 @@
     "@babel/plugin-proposal-class-properties": "^7.13.0",
     "@babel/preset-env": "^7.14.4",
     "eslint": "^7.27.0",
-    "prettier": "^2.3.0"
+    "prettier": "^2.3.0",
+    "terser": "^5.7.0"
   },
-  "dependencies": {
-    "uglify-js": "^3.13.9"
-  }
+  "dependencies": {}
 }
