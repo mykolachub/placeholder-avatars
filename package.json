@@ -1,11 +1,10 @@
 {
   "name": "placeholder-avatars",
-  "version": "0.1.5",
+  "version": "0.1.9",
   "description": "Library for generating random svg avatar-like placeholders",
-  "main": "./src/placeholder.js",
+  "main": "./lib/placeholder.js",
   "scripts": {
-    "lint": "npx eslint --fix .",
-    "build": "babel ./src/placeholder.js -d lib && terser lib/placeholder.js -c -m -o lib/placeholder.min.js"
+    "lint": "npx eslint --fix ."
   },
   "repository": {
     "type": "git",
