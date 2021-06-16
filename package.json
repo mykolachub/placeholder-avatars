@@ -25,5 +25,7 @@
     "prettier": "^2.3.0",
     "terser": "^5.7.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "nice-color-palettes": "^3.0.0"
+  }
 }
