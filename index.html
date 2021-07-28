@@ -7,7 +7,31 @@
     <title>Placeholder Avatars</title>
   </head>
   <body>
-    <img id="svg" src="" alt="svg" />
+    <style>
+      *,
+      *::after,
+      *::before {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body,
+      html {
+        width: 100%;
+        height: 100%;
+      }
+
+      img {
+        width: 512px;
+        height: 512px;
+      }
+    </style>
+    <!-- <img src="./test.svg" alt="svg" /> -->
+    <img id="svg-id" alt="id" />
+    <img class="svg-class" alt="class" />
+    <img svg-attr alt="attr" />
+
     <script type="module" src="index.js"></script>
   </body>
 </html>
