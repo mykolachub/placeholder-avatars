@@ -26,6 +26,7 @@
     "terser": "^5.7.0"
   },
   "dependencies": {
-    "nice-color-palettes": "^3.0.0"
+    "nice-color-palettes": "^3.0.0",
+    "validate-color": "^2.1.1"
   }
 }
